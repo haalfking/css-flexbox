@@ -6,24 +6,28 @@
     width: 100px;
     height: 100px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(45, 133, 133);
     border-radius: 15px;
 }
+body {
+    background-color: rgba(14, 107, 5, 0.432);
+}
+
 .parent-box div.child-box:nth-of-type(1) {
-    background-color: rgb(91, 91, 211);
+    background-color: rgba(181, 190, 54, 0.808);
 }
 
 .parent-box div.child-box:nth-of-type(2){
-    background-color: rgb(226, 30, 193);
+    background-color: rgb(130, 177, 3);
 }
 
 .parent-box div.child-box:nth-of-type(3){
-     background-color: aqua;
+     background-color: rgb(4, 179, 97);
 }
 
 .parent-box {
     display: flex;
-    background-color: rgba(140, 160, 26, 0.651);
+    background-color: rgba(68, 102, 5, 0.781);
     padding: 40px 20px 20px 20px;
     
 }
