@@ -10,7 +10,7 @@
 <body>
     <h1 class="page-title">Propriedades CSS do Flexbox</h1>
 
-    <section class="property-section" id="">
+    <section class="property-section" id="display:flex">
 
        <h2 class="property-title">display: flex</h2>
         <p class="property-explanation">
@@ -54,5 +54,119 @@
             </div>
          </div>
      </section>
+
+     <section class="property-section" id="flex-direction">
+      <h2 class="property-title">flex-direction</h2>
+       <p class="property-explanation">
+         A flex-direction propriedade especifica a direção dos itens flexíveis.
+       </p>
+       <div class="parent-box">
+          <p>parent-box</p>
+          <div class="child-box">
+             <p>1</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+             <p>2</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+            <p>3</p>
+            <p>child-box</p>
+          </div>
+       </div>
+   </section>
+
+   <section class="property-section" id="align-itens">
+      <h2 class="property-title">align-itens</h2>
+       <p class="property-explanation">
+         define o comportamento padrão de como flex items são alinhados de acordo com o eixo transversal (cross axis). De certa forma, funciona de forma similar ao 
+         justify-content, porém no eixo transversal (perpendicular ao eixo principal).
+       </p>
+       <div class="parent-box">
+          <p>parent-box</p>
+          <div class="child-box">
+             <p>1</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+             <p>2</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+            <p>3</p>
+            <p>child-box</p>
+          </div>
+       </div>
+   </section>
+
+   <section class="property-section" id="flex-wrap">
+      <h2 class="property-title">flex-wrap</h2>
+       <p class="property-explanation">
+         Por padrão, os flex items vão todos tentar se encaixar em uma só linha. Com esta propriedade você
+         pode modificar esse comportamento e permitir que os ítens quebrem para uma linha seguinte conforme for necessário.
+       </p>
+       <div class="parent-box">
+          <p>parent-box</p>
+          <div class="child-box">
+             <p>1</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+             <p>2</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+            <p>3</p>
+            <p>child-box</p>
+          </div>
+       </div>
+   </section>
+
+   <section class="property-section" id="flex-flow">
+      <h2 class="property-title">flex-flow</h2>
+       <p class="property-explanation">
+         A propriedade flex-flow é uma propriedade shorthand (uma mesma declaração inclui vários valores relacionados a mais de uma propriedade) que inclui flex-direction e flex-wrap.
+         Determina quais serão os eixos pricipal e transversal do container. O valor padrão é row nowrap.
+       </p>
+       <div class="parent-box">
+          <p>parent-box</p>
+          <div class="child-box">
+             <p>1</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+             <p>2</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+            <p>3</p>
+            <p>child-box</p>
+          </div>
+       </div>
+   </section>
+
+   <section class="property-section" id="align-content">
+      <h2 class="property-title">align-content</h2>
+       <p class="property-explanation">
+         Organiza as linhas dentro de um flex container quando há espaço extra no eixo transversal, similar ao modo como justify-content alinha ítens individuais dentro do eixo principal.
+         Importante: Esta propriedade não tem efeito quando há somente uma linha de flex items no container.
+       </p>
+       <div class="parent-box">
+          <p>parent-box</p>
+          <div class="child-box">
+             <p>1</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+             <p>2</p>
+             <p>child-box</p>
+          </div>
+          <div class="child-box">
+            <p>3</p>
+            <p>child-box</p>
+          </div>
+       </div>
+   </section>
 </body>
 </html>
